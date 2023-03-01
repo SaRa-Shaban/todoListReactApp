@@ -100,7 +100,7 @@ function App() {
     <>
       <div className='container shadow rounded-3 my-5  py-3 todolist'>
         <h3 className='text-center py-2'>Todo List App (React.js)</h3>
-        <div className='container w-75 my-3 py-2  bg-dark rounded-2'>
+        <div className='container-fluid w-100 my-3 py-2  bg-dark rounded-2'>
 
           {updateTask ?
             (
