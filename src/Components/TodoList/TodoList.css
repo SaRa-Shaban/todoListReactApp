@@ -1,0 +1,41 @@
+.todolist {
+    background-color: #3c424a;
+    color: white;
+
+}
+
+.icon-list {
+    top: 30%;
+    padding: 0px 10px;
+}
+
+.holder input {
+    padding-left: 30px;
+}
+
+.task {
+    background-color: #555;
+}
+
+.number {
+    width: 26px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.done {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.task i {
+    cursor: pointer;
+}
+
+.content p {
+    text-align: left !important;
+}
